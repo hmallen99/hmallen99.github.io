@@ -68,6 +68,12 @@ body {
   text-align: left;
   font-family: "Roboto", sans-serif;
 }
+
+.button:hover {
+  background-color: rgb(183, 213, 255);
+  border-color: rgb(183, 213, 255);
+}
+
 .button-column {
   display: flex;
   flex-direction: column;

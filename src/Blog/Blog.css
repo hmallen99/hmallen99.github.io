@@ -1,0 +1,257 @@
+.div {
+    display: flex;
+    flex-direction: column;
+    max-width: 674px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  .div-2 {
+    display: flex;
+  }
+  @media (max-width: 999px) {
+    .div-2 {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: calc(95.5% - 0px);
+    margin-left: 0px;
+  }
+  @media (max-width: 999px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .div-3 {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-self: stretch;
+    width: 616px;
+  }
+  .div-4 {
+    display: flex;
+  }
+  @media (max-width: 999px) {
+    .div-4 {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+  .column-2 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: calc(25.29% - 10px);
+    margin-left: 0px;
+  }
+  @media (max-width: 999px) {
+    .column-2 {
+      width: 100%;
+    }
+  }
+  .div-5 {
+    display: flex;
+    flex-direction: column;
+    max-width: 151px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 12px;
+    padding-right: 15px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    background-color: rgba(217, 217, 217, 1);
+  }
+  .div-6 {
+    display: flex;
+    max-width: 121px;
+    height: 32px;
+    width: 121px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-color: rgba(255, 255, 255, 1);
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .div-7 {
+    display: flex;
+    flex-direction: column;
+    max-width: 121px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 14px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 30px;
+    padding-right: 14px;
+    padding-bottom: 30px;
+    padding-left: 14px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .div-8 {
+    display: flex;
+    max-width: 93px;
+    height: 0px;
+    width: 93px;
+    border-color: rgba(111, 111, 111, 1);
+    border-width: 1px;
+    border-style: solid;
+  }
+  .div-9 {
+    display: flex;
+    max-width: 93px;
+    height: 0px;
+    width: 93px;
+    margin-top: 30px;
+    border-color: rgba(111, 111, 111, 1);
+    border-width: 1px;
+    border-style: solid;
+  }
+  .div-10 {
+    display: flex;
+    max-width: 93px;
+    height: 0px;
+    width: 93px;
+    margin-top: 30px;
+    border-color: rgba(111, 111, 111, 1);
+    border-width: 1px;
+    border-style: solid;
+  }
+  .div-11 {
+    display: flex;
+    max-width: 93px;
+    height: 0px;
+    width: 93px;
+    margin-top: 30px;
+    border-color: rgba(111, 111, 111, 1);
+    border-width: 1px;
+    border-style: solid;
+  }
+  .div-12 {
+    display: flex;
+    max-width: 93px;
+    height: 0px;
+    width: 93px;
+    margin-top: 30px;
+    border-color: rgba(111, 111, 111, 1);
+    border-width: 1px;
+    border-style: solid;
+  }
+  .div-13 {
+    display: flex;
+    max-width: 93px;
+    height: 0px;
+    width: 93px;
+    margin-top: 30px;
+    border-color: rgba(111, 111, 111, 1);
+    border-width: 1px;
+    border-style: solid;
+  }
+  .div-14 {
+    display: flex;
+    max-width: 93px;
+    height: 0px;
+    width: 93px;
+    margin-top: 30px;
+    border-color: rgba(111, 111, 111, 1);
+    border-width: 1px;
+    border-style: solid;
+  }
+  .column-3 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: calc(76.21% - 10px);
+    margin-left: 20px;
+  }
+  @media (max-width: 999px) {
+    .column-3 {
+      width: 100%;
+    }
+  }
+  .div-15 {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    justify-content: flex-start;
+    align-self: stretch;
+    width: 455px;
+    align-items: flex-start;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: rgba(217, 217, 217, 1);
+  }
+  .div-16 {
+    display: flex;
+    flex-direction: column;
+    max-width: 160px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .div-17 {
+    max-width: 160px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+  }
+  .div-18 {
+    max-width: 121px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+  }
+  .div-19 {
+    display: flex;
+    flex-direction: column;
+    max-width: 435px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 10px;
+    padding-right: 14px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .div-20 {
+    display: flex;
+  }
+  @media (max-width: 999px) {
+    .div-20 {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+  .column-4 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: calc(102.26% - 0px);
+    margin-left: 0px;
+  }
+  @media (max-width: 999px) {
+    .column-4 {
+      width: 100%;
+    }
+  }
+  .lorem-ipsum-dolor-sit-amet-co {
+    max-width: 407px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+  }

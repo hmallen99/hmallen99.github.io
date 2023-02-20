@@ -9,8 +9,8 @@ export default function TopBarContainer() {
             <div className="top-bar-container">
                 <div className="top-bar">
                     <PlainLink to="/">
-                        <div className="top-bar-button">
-                            Home
+                        <div className="top-bar-title">
+                            henry.allen
                         </div>
                     </PlainLink>
                     <PlainLink to="/pages/blog">

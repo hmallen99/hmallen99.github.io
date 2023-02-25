@@ -69,6 +69,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+input[type="text"] {
+  background-color: rgb(183, 213, 255);
+  border-width: 0px;
+}
+
 .button:hover {
   background-color: rgb(183, 213, 255);
   border-color: rgb(183, 213, 255);

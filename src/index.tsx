@@ -9,6 +9,7 @@ import {
 import Home from './Home';
 import Blog from './Blog/BlogPage';
 import TopBarContainer from './TopBarContainer';
+import BlogContent from './Blog/BlogContent';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,17 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/pages/blog",
-        element: <Blog />
+        element: <Blog />,
+        children: [
+          {
+            index: true,
+            element: <BlogContent />
+          },
+          {
+            path: "/pages/blog/:id",
+            element: <BlogContent />
+          }
+        ]
       },
       {
         path: "/pages/projects",

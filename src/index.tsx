@@ -12,7 +12,7 @@ import TopBarContainer from './TopBarContainer';
 import ArticleContainer from './Blog/ArticleContainer';
 import ProjectsContainer from './Projects/ProjectsContainer'
 import ProjectListContainer from './Projects/ProjectListContainer';
-import ProjectContainer from './Projects/ProjectContainer';
+import ProjectPageContainer from './Projects/ProjectPageContainer';
 
 const router = createBrowserRouter([
   {
@@ -47,7 +47,7 @@ const router = createBrowserRouter([
           },
           {
             path: "/pages/projects/:id",
-            element: <ProjectContainer />
+            element: <ProjectPageContainer />
           }
         ]
       },

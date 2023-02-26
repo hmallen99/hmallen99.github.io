@@ -1,7 +1,7 @@
 import * as React from "react"
 import { useParams } from "react-router-dom";
 import { ProjectContext } from "./ProjectContext";
-import Project from "./Project";
+import ProjectPage from "./ProjectPage";
 
 export default function ArticleContainer() {
     const { id } = useParams();
@@ -21,6 +21,6 @@ export default function ArticleContainer() {
     }, [pageId])
 
     return (
-        <Project text={articleText} />
+        <ProjectPage text={articleText} />
     )
 }

@@ -7,9 +7,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './Home';
-import Blog from './Blog/BlogPage';
+import BlogContainer from './Blog/BlogContainer';
 import TopBarContainer from './TopBarContainer';
-import BlogContent from './Blog/BlogContent';
+import ArticleContainer from './Blog/ArticleContainer';
 
 const router = createBrowserRouter([
   {
@@ -22,15 +22,15 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/pages/blog",
-        element: <Blog />,
+        element: <BlogContainer />,
         children: [
           {
             index: true,
-            element: <BlogContent />
+            element: <ArticleContainer />
           },
           {
             path: "/pages/blog/:id",
-            element: <BlogContent />
+            element: <ArticleContainer />
           }
         ]
       },

@@ -1,62 +1,27 @@
 import * as React from "react"
 import PlainLink from "../PlainLink"
 import './Blog.css'
-
-const elements = [
-    "hello",
-    "world",
-    "Lorem",
-    "ipsum",
-    "dolor",
-    "sit",
-    "hello",
-    "world",
-    "Lorem",
-    "ipsum",
-    "dolor",
-    "sit",
-    "hello",
-    "world",
-    "Lorem",
-    "ipsum",
-    "dolor",
-    "sit",
-    "hello",
-    "world",
-    "Lorem",
-    "ipsum",
-    "dolor",
-    "sit",
-    "hello",
-    "world",
-    "Lorem",
-    "ipsum",
-    "dolor",
-    "sit",
-]
+import { Article, ArticleContext } from "./BlogContext"
 
 type props = {
     filter: string
 }
 
-type ListCellProps = {
-    id: number,
-    text: string,
-}
-
-function BlogListCell(props: ListCellProps) {
+function BlogListCell(props: Article) {
     return (
         <PlainLink to={`/pages/blog/${props.id}`}>
-            <div key={props.id} className="blog-list-cell">{props.text}</div>
+            <div className="blog-list-cell">{props.title}</div>
         </PlainLink>
     )
 }
 
 export default function BlogList(props: props) {
+    const articles = React.useContext(ArticleContext)
+    
     const filter = props.filter.toLowerCase()
-    const children = elements
-        .filter((elem) => elem.toLowerCase().includes(filter))
-        .map((elem, index) => <BlogListCell id={index} text={elem} />)
+    const children = articles
+        .filter((elem) => elem.title.toLowerCase().includes(filter))
+        .map((elem) => <BlogListCell key={elem.id} {...elem} />)
 
     return (
         <div className="blog-list">

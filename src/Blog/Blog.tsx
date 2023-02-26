@@ -1,14 +1,18 @@
 import * as React from "react";
 import { Outlet } from "react-router-dom";
+import FilterNavigator, { ListItem } from "../FilterNavigator/FilterNavigator";
 import './Blog.css'
-import BlogNavigator from "./BlogNavigator";
 
 
-export default function Blog() {
+type Props = {
+    articles: ListItem[]
+}
+
+export default function Blog(props: Props) {
     return (
         <>
             <div className="blog-container">
-                <BlogNavigator />
+                <FilterNavigator route={"/pages/blog"} items={props.articles}/>
                 <Outlet />
             </div>
         </>

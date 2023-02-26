@@ -1,8 +1,4 @@
 import { createContext } from "react";
+import { ListItem } from "../FilterNavigator/FilterNavigator";
 
-export type Article = {
-    id: string,
-    title: string,
-  }
-
-export const ArticleContext =  createContext<Article[]>([])
+export const ArticleContext =  createContext<ListItem[]>([])

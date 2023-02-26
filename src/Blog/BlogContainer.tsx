@@ -1,11 +1,12 @@
 import * as React from "react";
 import './Blog.css'
-import { ArticleContext, Article } from "./BlogContext";
+import { ArticleContext } from "./BlogContext";
 import BlogLoading from "./BlogLoading";
 import Blog from "./Blog";
+import { ListItem } from "../FilterNavigator/FilterNavigator";
 
 export default function BlogContainer() {
-  const [articles, setArticles] = React.useState<Article[]>([])
+  const [articles, setArticles] = React.useState<ListItem[]>([])
   const [isPending, startTransition] = React.useTransition()
 
   React.useEffect(() => {
@@ -26,7 +27,7 @@ export default function BlogContainer() {
 
   return (
     <ArticleContext.Provider value={articles}>
-      <Blog />
+      <Blog articles={articles}/>
     </ArticleContext.Provider>
   );
 }

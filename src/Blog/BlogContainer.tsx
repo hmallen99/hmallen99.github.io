@@ -1,7 +1,7 @@
 import * as React from "react";
 import './Blog.css'
 import { ArticleContext } from "./BlogContext";
-import BlogLoading from "./BlogLoading";
+import LoadingPage from "../Loading/LoadingPage";
 import Blog from "./Blog";
 import { ListItem } from "../FilterNavigator/FilterNavigator";
 
@@ -21,7 +21,7 @@ export default function BlogContainer() {
 
   if (isPending || articles.length === 0) {
     return (
-      <BlogLoading />
+      <LoadingPage />
     )
   }
 

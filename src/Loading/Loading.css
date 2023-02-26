@@ -1,0 +1,10 @@
+.loading-container {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 30px);
+    padding: 10px;
+    gap: 10px;
+    max-height: 85vh;
+    justify-content: center;
+    overflow-x: hidden;
+  }

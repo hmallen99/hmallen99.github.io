@@ -10,6 +10,9 @@ import Home from './Home';
 import BlogContainer from './Blog/BlogContainer';
 import TopBarContainer from './TopBarContainer';
 import ArticleContainer from './Blog/ArticleContainer';
+import ProjectsContainer from './Projects/ProjectsContainer'
+import ProjectListContainer from './Projects/ProjectListContainer';
+import ProjectContainer from './Projects/ProjectContainer';
 
 const router = createBrowserRouter([
   {
@@ -36,7 +39,17 @@ const router = createBrowserRouter([
       },
       {
         path: "/pages/projects",
-        element: <h2>Projects</h2>,
+        element: <ProjectsContainer />,
+        children: [
+          {
+            index: true,
+            element: <ProjectListContainer />
+          },
+          {
+            path: "/pages/projects/:id",
+            element: <ProjectContainer />
+          }
+        ]
       },
       {
         path: "/pages/resume",

@@ -13,6 +13,7 @@ import ArticleContainer from './Blog/ArticleContainer';
 import ProjectsContainer from './Projects/ProjectsContainer'
 import ProjectListContainer from './Projects/ProjectListContainer';
 import ProjectPageContainer from './Projects/ProjectPageContainer';
+import ResumeContainer from './Resume/ResumeContainer';
 
 const router = createBrowserRouter([
   {
@@ -53,7 +54,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/pages/resume",
-        element: <h2>Resume</h2>,
+        element: <ResumeContainer />,
       }
     ]
   },

@@ -1,1 +1,1 @@
-## Honor's Thesis
+## Honors Thesis

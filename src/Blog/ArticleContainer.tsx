@@ -13,13 +13,13 @@ export default function ArticleContainer() {
 
     const [articleText, setArticleText] = React.useState("")
     React.useEffect(() => {
-        fetch(`/articles/${pageId}.md`).then((response) => {
-            response.text().then((result) => {
+        fetch(`/articles/${pageId}.md`)
+            .then((response) => response.text())
+            .then((result) => {
                 setArticleText(result)
+            }).catch(() => {
+                setArticleText("### Error: 404")
             })
-        }).catch(() => {
-            setArticleText("### Error: 404")
-        })
     }, [pageId])
 
     return (

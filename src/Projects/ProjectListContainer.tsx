@@ -13,11 +13,11 @@ export default function ProjectListContainer() {
     const [blurbs, setBlurbs] = React.useState<Record<string, ProjectBlurb>>({})
 
     React.useEffect(() => {
-        fetch("/projectblurbs.json").then((response) => {
-            response.json().then((json) => {
+        fetch("/projectblurbs.json")
+            .then((response) => response.json())
+            .then((json) => {
                 setBlurbs(json)
             })
-        })
     }, [])
 
 

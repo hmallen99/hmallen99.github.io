@@ -13,7 +13,8 @@ export default function ArticleContainer() {
 
     const [articleText, setArticleText] = React.useState("")
     React.useEffect(() => {
-        fetch(`/articles/${pageId}.md`)
+        import(`../content/articles/${pageId}.md`)
+            .then((res) => fetch(res.default))
             .then((response) => response.text())
             .then((result) => {
                 setArticleText(result)

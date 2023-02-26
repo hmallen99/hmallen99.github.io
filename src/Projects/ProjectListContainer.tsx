@@ -1,3 +1,4 @@
+import { parse } from "json5"
 import * as React from "react"
 import { ProjectContext } from "./ProjectContext"
 import ProjectList from "./ProjectList"
@@ -13,10 +14,10 @@ export default function ProjectListContainer() {
     const [blurbs, setBlurbs] = React.useState<Record<string, ProjectBlurb>>({})
 
     React.useEffect(() => {
-        fetch("/projectblurbs.json")
-            .then((response) => response.json())
+        import("../content/projectblurbs.json")
             .then((json) => {
-                setBlurbs(json)
+                setBlurbs(json.default)
+            
             })
     }, [])
 

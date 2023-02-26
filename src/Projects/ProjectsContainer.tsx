@@ -9,11 +9,10 @@ export default function BlogContainer() {
   const [isPending, startTransition] = React.useTransition()
 
   React.useEffect(() => {
-    fetch("/projects.json")
-      .then((response) => response.json())
+    import("../content/projects.json")
       .then((json) => {
         startTransition(() => {
-          setProjects(json.projects)
+          setProjects(json.default.projects)
         })
       })
   }, [])

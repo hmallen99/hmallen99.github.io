@@ -33,10 +33,9 @@ export default function ArticleContainer() {
     const pageId = project?.id || "placeholder"
     const [projectContent, setProjectContent] = React.useState<ProjectContent>(DEFAULT_CONTENT)
     React.useEffect(() => {
-        fetch(`/projects/${pageId}.json`)
-            .then((response) => response.json())
+        import(`../content/projects/${pageId}.json`)
             .then((result) => {
-                setProjectContent(result)
+                setProjectContent(result.default)
             }).catch(() => {
                 setProjectContent(ERROR_CONTENT)
             })

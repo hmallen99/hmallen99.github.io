@@ -5,13 +5,14 @@ import { ContentNode } from "./ProjectPageContainer";
 export default function MarkdownContent(props: ContentNode) {
     const [text, setText] = React.useState("")
     React.useEffect(() => {
-        fetch(props.src)
+        import(`../content/${props.src}`)
+            .then((res) => fetch(res.default))
             .then((response) => response.text())
             .then((responseText) => {
                 setText(responseText)
             })
-            .catch(() => {
-                setText("An error ocurred")
+            .catch((err) => {
+                setText(err)
             })
     })
 

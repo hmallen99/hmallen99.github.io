@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhallen_blog=self.webpackChunkhallen_blog||[]).push([[521],{521:function(e){e.exports=JSON.parse('{"content":[{"type":"text","src":"projects/thesis.md"},{"type":"iframe","src":"https://drive.google.com/file/d/16U6RECy35e_7j1LMc7TjfgESTYGYTiTx/preview"}]}')}}]);

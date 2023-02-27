@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/blog/static/css/main.7a24aa94.css",
-    "main.js": "/blog/static/js/main.7e2d1b9a.js",
-    "static/js/849.de5f995f.chunk.js": "/blog/static/js/849.de5f995f.chunk.js",
-    "static/js/704.9d0cbc57.chunk.js": "/blog/static/js/704.9d0cbc57.chunk.js",
-    "static/js/924.49ab32c9.chunk.js": "/blog/static/js/924.49ab32c9.chunk.js",
-    "static/js/181.2c8fae94.chunk.js": "/blog/static/js/181.2c8fae94.chunk.js",
-    "static/js/232.f2900cf0.chunk.js": "/blog/static/js/232.f2900cf0.chunk.js",
-    "static/js/744.34e8a63a.chunk.js": "/blog/static/js/744.34e8a63a.chunk.js",
-    "static/js/982.9a4418e5.chunk.js": "/blog/static/js/982.9a4418e5.chunk.js",
-    "static/js/511.9cb5cfb9.chunk.js": "/blog/static/js/511.9cb5cfb9.chunk.js",
-    "static/js/521.607be6d7.chunk.js": "/blog/static/js/521.607be6d7.chunk.js",
-    "static/js/518.8337de02.chunk.js": "/blog/static/js/518.8337de02.chunk.js",
-    "static/js/787.b006e9dc.chunk.js": "/blog/static/js/787.b006e9dc.chunk.js",
-    "static/media/thesis.png": "/blog/static/media/thesis.6eff9cbb803d088f10c4.png",
-    "static/media/the-brain-as-computer.md": "/blog/static/media/the-brain-as-computer.f693bac04addd39f1a8a.md",
-    "static/media/dream-machines.md": "/blog/static/media/dream-machines.fffd00927e82c4ca7005.md",
-    "index.html": "/blog/index.html",
-    "static/media/placeholder.md": "/blog/static/media/placeholder.19a4cf647669f9586031.md",
-    "static/media/thesis.md": "/blog/static/media/thesis.1c1fb12ca9d472e93fc3.md",
-    "main.7a24aa94.css.map": "/blog/static/css/main.7a24aa94.css.map",
-    "main.7e2d1b9a.js.map": "/blog/static/js/main.7e2d1b9a.js.map",
-    "787.b006e9dc.chunk.js.map": "/blog/static/js/787.b006e9dc.chunk.js.map"
+    "main.css": "/static/css/main.7a24aa94.css",
+    "main.js": "/static/js/main.9bfb02f8.js",
+    "static/js/849.de5f995f.chunk.js": "/static/js/849.de5f995f.chunk.js",
+    "static/js/704.9d0cbc57.chunk.js": "/static/js/704.9d0cbc57.chunk.js",
+    "static/js/924.49ab32c9.chunk.js": "/static/js/924.49ab32c9.chunk.js",
+    "static/js/181.2c8fae94.chunk.js": "/static/js/181.2c8fae94.chunk.js",
+    "static/js/232.f2900cf0.chunk.js": "/static/js/232.f2900cf0.chunk.js",
+    "static/js/744.34e8a63a.chunk.js": "/static/js/744.34e8a63a.chunk.js",
+    "static/js/982.9a4418e5.chunk.js": "/static/js/982.9a4418e5.chunk.js",
+    "static/js/511.9cb5cfb9.chunk.js": "/static/js/511.9cb5cfb9.chunk.js",
+    "static/js/521.607be6d7.chunk.js": "/static/js/521.607be6d7.chunk.js",
+    "static/js/518.8337de02.chunk.js": "/static/js/518.8337de02.chunk.js",
+    "static/js/787.b006e9dc.chunk.js": "/static/js/787.b006e9dc.chunk.js",
+    "static/media/thesis.png": "/static/media/thesis.6eff9cbb803d088f10c4.png",
+    "static/media/the-brain-as-computer.md": "/static/media/the-brain-as-computer.f693bac04addd39f1a8a.md",
+    "static/media/dream-machines.md": "/static/media/dream-machines.fffd00927e82c4ca7005.md",
+    "index.html": "/index.html",
+    "static/media/placeholder.md": "/static/media/placeholder.19a4cf647669f9586031.md",
+    "static/media/thesis.md": "/static/media/thesis.1c1fb12ca9d472e93fc3.md",
+    "main.7a24aa94.css.map": "/static/css/main.7a24aa94.css.map",
+    "main.9bfb02f8.js.map": "/static/js/main.9bfb02f8.js.map",
+    "787.b006e9dc.chunk.js.map": "/static/js/787.b006e9dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a24aa94.css",
-    "static/js/main.7e2d1b9a.js"
+    "static/js/main.9bfb02f8.js"
   ]
 }

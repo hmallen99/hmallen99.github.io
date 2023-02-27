@@ -1,5 +1,7 @@
 # The Brain as Computer
 
+**Essay for UC Berkeley's VS265**
+
 ## Introduction
 
 Computers provide a great metaphor for the brain. After all, the original “computers” were humans, using their brains to execute algorithms with pen and paper. The computationalist would argue even further, suggesting that brains are computers. Brains seem to execute algorithms to process information and stimuli, eliciting some response, suggesting some form of “Turing completeness”. I would argue that there is some mathematical equivalence between brains and computers, but not true equality.
@@ -53,16 +55,27 @@ If we argue that the brain is a computer, we imply that neuroscience is computer
 
 ## Citations
 [1] https://medium.com/the-spike/yes-the-brain-is-a-computer-11f630cad736
+
 [2] https://plato.stanford.edu/entries/turing-machine/
+
 [3] http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.183.1585&rep=rep1&type=pdf
+
 [4] https://www.cell.com/neuron/pdf/S0896-6273(16)31040-6.pdf 
+
 [5] https://plato.stanford.edu/entries/church-turing/#MisuThes
+
 [6] https://plato.stanford.edu/entries/computational-mind/
+
 [7] https://www.cnn.com/2017/08/17/politics/tbt-clinton-grand-jury-testimony/index.html
+
 [8] https://blogs.nvidia.com/blog/2009/12/16/whats-the-difference-between-a-cpu-and-a-gpu/
+
 [9] http://planning.cs.uiuc.edu/node130.html
+
 [10] http://romainbrette.fr/what-is-computational-neuroscience-xxx-is-the-brain-a-computer/
+
 [11] https://redwood.berkeley.edu/wp-content/uploads/2018/08/bell-levels-loops.pdf
+
 [12] https://en.wikipedia.org/wiki/Turing_completeness
 
 

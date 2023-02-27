@@ -20,8 +20,10 @@
 }
 
 .projects-list-cell {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
     border-top: 1px solid rgba(111, 111, 111, 1);
     font-family: "Roboto", sans-serif;
     font-size: 20px;
@@ -76,4 +78,10 @@
     height: 100vh;
     background-color: rgba(239, 239, 239, 1);
     border-style: hidden;
+}
+
+.project-thumbnail {
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
 }

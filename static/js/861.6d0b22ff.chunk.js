@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhallen_blog=self.webpackChunkhallen_blog||[]).push([[861],{861:function(e,a,l){e.exports=l.p+"static/media/fire_explanation.65cefb3a6c8d7e11c108.md"}}]);

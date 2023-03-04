@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhallen_blog=self.webpackChunkhallen_blog||[]).push([[744],{744:function(e){e.exports=JSON.parse('{"thesis":{"id":"thesis","text":"## Honors Thesis\\nDecoding the Current and Previous Orientation of Small Targets in the Periphery Using Magnetoencephalography","thumbnailUrl":"images/thesis.png"}}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhallen_blog=self.webpackChunkhallen_blog||[]).push([[748],{748:function(e,l,a){e.exports=a.p+"static/media/fire_intro.3b08c74274d52d995c4a.md"}}]);

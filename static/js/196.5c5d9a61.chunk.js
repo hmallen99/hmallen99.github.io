@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhallen_blog=self.webpackChunkhallen_blog||[]).push([[196],{196:function(e){e.exports=JSON.parse('{"content":[{"type":"text","src":"projects/fire_intro.md"},{"type":"iframe","src":"https://hmallen99.github.io/firemusic/","height":"60vh","title":"fire-sim"},{"type":"text","src":"projects/fire_explanation.md"}]}')}}]);

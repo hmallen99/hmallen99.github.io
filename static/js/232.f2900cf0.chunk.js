@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhallen_blog=self.webpackChunkhallen_blog||[]).push([[232],{232:function(e){e.exports=JSON.parse('{"projects":[{"id":"thesis","title":"Honors Thesis"}]}')}}]);

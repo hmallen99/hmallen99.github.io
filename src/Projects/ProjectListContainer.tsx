@@ -1,4 +1,3 @@
-import { parse } from "json5"
 import * as React from "react"
 import { ProjectContext } from "./ProjectContext"
 import ProjectList from "./ProjectList"

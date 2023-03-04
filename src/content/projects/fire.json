@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "type": "text",
+            "src": "projects/fire_intro.md"
+        },
+        {
+            "type": "iframe",
+            "src": "https://hmallen99.github.io/firemusic/",
+            "height": "60vh",
+            "title": "fire-sim"
+        },
+        {
+            "type": "text",
+            "src": "projects/fire_explanation.md"
+        }
+    ]
+}

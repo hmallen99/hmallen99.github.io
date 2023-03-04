@@ -6,6 +6,8 @@ import ProjectPage from "./ProjectPage";
 export type ContentNode = {
     type: string,
     src: string,
+    height?: string,
+    title?: string
 }
 
 export type ProjectContent = {

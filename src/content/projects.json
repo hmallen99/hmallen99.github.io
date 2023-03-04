@@ -3,6 +3,10 @@
         {
             "id": "thesis",
             "title": "Honors Thesis"
+        },
+        {
+            "id": "fire",
+            "title": "Fluid Fire Simulation"
         }
     ]
 }

@@ -1,6 +1,5 @@
 import * as React from "react"
 import './Projects.css'
-import ReactMarkdown from "react-markdown"
 import { ContentNode, ProjectContent } from "./ProjectPageContainer"
 import MarkdownContent from "./MarkdownContent"
 
@@ -9,11 +8,13 @@ type Props = {
 }
 
 function contentNodeSelector(contentNode: ContentNode) {
-    switch(contentNode.type) {
+    switch (contentNode.type) {
         case "text":
             return <MarkdownContent {...contentNode} />
         case "iframe":
-            return <iframe className="iframe-content" src={contentNode.src}></iframe>
+            return <div className="iframe-container" >
+                <iframe title={contentNode.title} style={{height: contentNode.height || "75vh"}} className="iframe-content" src={contentNode.src}></iframe>
+            </div>
         default:
             return <div>{contentNode.src}</div>
     }

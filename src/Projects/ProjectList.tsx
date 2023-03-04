@@ -22,7 +22,7 @@ function ListCell(props: ProjectBlurb) {
     return (
         <PlainLink to={`/pages/projects/${props.id}`} >
             <div className="projects-list-cell">
-                {thumbnail ? <img className="project-thumbnail" src={thumbnail} /> : null}
+                {thumbnail ? <img className="project-thumbnail" src={thumbnail} alt=""/> : null}
                 <div className="project-text">
                     <ReactMarkdown>
                         {props.text}

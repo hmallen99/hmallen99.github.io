@@ -19,6 +19,7 @@ body {
   padding-left: 5%;
   background-color: rgba(239, 239, 239, 1);
 }
+
 .title {
   display: flex;
   flex-direction: column;
@@ -29,6 +30,7 @@ body {
   text-align: left;
   font-family: "Roboto", sans-serif;
 }
+
 .navigator {
   display: flex;
   flex-direction: column;
@@ -36,9 +38,11 @@ body {
   margin-top: 5%;
   /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.20000000298023224); */
 }
+
 .columns {
   display: flex;
 }
+
 @media (max-width: 999px) {
   .columns {
     flex-direction: column;
@@ -69,6 +73,34 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.button-compact {
+  display: flex;
+  flex-direction: row;
+  max-width: 80px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.20000000298023224);
+  padding-top: 20px;
+  padding-right: 121px;
+  padding-bottom: 20px;
+  padding-left: 121px;
+  border-color: rgba(255, 255, 255, 1);
+  border-width: 1px;
+  border-style: solid;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(111, 111, 111, 1);
+  font-size: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+
+.button-compact:hover {
+  background-color: rgb(183, 213, 255);
+  border-color: rgb(183, 213, 255);
+}
+
 input[type="text"] {
   background-color: rgb(183, 213, 255);
   border-width: 0px;
@@ -87,6 +119,7 @@ input[type="text"] {
   margin-left: 20px;
   margin-bottom: 20px;
 }
+
 @media (max-width: 999px) {
   .button-column {
     width: 100%;

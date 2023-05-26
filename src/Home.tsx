@@ -1,7 +1,12 @@
 import * as React from "react";
 import PlainLink from "./PlainLink";
+import PlatformContext, { FormFactor } from "./Platform/PlatformContext";
 
 export default function Home() {
+    const platformInfo = React.useContext(PlatformContext)
+
+    const buttonStyle = platformInfo.formFactor === FormFactor.Wide ? "button" : "button-compact"
+
     return (
         <>
             <div className="container">
@@ -10,17 +15,17 @@ export default function Home() {
                     <div className="columns">
                         <div className="button-column">
                             <PlainLink to="/pages/blog" >
-                                <div className="button">Blog</div>
+                                <div className={buttonStyle}>Blog</div>
                             </PlainLink>
                         </div>
                         <div className="button-column">
                             <PlainLink to="/pages/projects">
-                                <div className="button">Projects</div>
+                                <div className={buttonStyle}>Projects</div>
                             </PlainLink>
                         </div>
                         <div className="button-column">
                             <PlainLink to="/pages/resume">
-                                <div className="button">Resume</div>
+                                <div className={buttonStyle}>Resume</div>
                             </PlainLink>
                         </div>
                     </div>

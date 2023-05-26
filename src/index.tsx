@@ -14,6 +14,7 @@ import ProjectsContainer from './Projects/ProjectsContainer'
 import ProjectListContainer from './Projects/ProjectListContainer';
 import ProjectPageContainer from './Projects/ProjectPageContainer';
 import ResumeContainer from './Resume/ResumeContainer';
+import PlatformProvider from './Platform/PlatformProvider';
 
 const router = createHashRouter([
   {
@@ -67,7 +68,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <PlatformProvider>
+      <RouterProvider router={router} />
+    </PlatformProvider>
   </React.StrictMode>
 );
 

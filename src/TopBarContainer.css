@@ -11,29 +11,23 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    gap: 20px;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    gap: 1em;
     width: 100%;
 }
 
-.top-bar-compact {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    gap: 20px;
-    width: 100%;
+@media (max-width: 50em) {
+    .top-bar {
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .top-bar-title {
     display: flex;
     flex-direction: column;
-    max-width: 574px;
     color: rgb(94, 161, 255);
     font-size: 32px;
     letter-spacing: 0%;
@@ -44,15 +38,14 @@
 .top-bar-button {
     display: flex;
     flex-direction: row;
-    max-width: 80px;
     justify-content: center;
     align-items: center;
     border-radius: 12px;
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.20000000298023224);
-    padding-top: 5px;
-    padding-right: 20px;
-    padding-bottom: 5px;
-    padding-left: 20px;
+    padding-top: 0.25em;
+    padding-right: 1em;
+    padding-bottom: 0.25em;
+    padding-left: 1em;
     border-color: rgba(255, 255, 255, 1);
     border-width: 1px;
     border-style: solid;
@@ -67,4 +60,10 @@
 .top-bar-button:hover {
     background-color: rgb(183, 213, 255);
     border-color: rgb(183, 213, 255);
+}
+
+.more-posts {
+    font-size: 18px;
+    color: rgba(111, 111, 111, 1);
+    font-family: "Roboto", sans-serif;
 }

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhallen_blog=self.webpackChunkhallen_blog||[]).push([[770],{770:function(a,e,l){a.exports=l.p+"static/media/the-brain-as-computer.f693bac04addd39f1a8a.md"}}]);

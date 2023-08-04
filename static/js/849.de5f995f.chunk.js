@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhallen_blog=self.webpackChunkhallen_blog||[]).push([[849],{849:function(e){e.exports=JSON.parse('{"articles":[{"id":"the-brain-as-computer","title":"The Brain as Computer"},{"id":"dream-machines","title":"Dream Machines"}]}')}}]);

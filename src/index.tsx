@@ -7,9 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './Home';
-import BlogContainer from './Blog/BlogContainer';
 import TopBarContainer from './TopBarContainer';
-import ArticleContainer from './Blog/ArticleContainer';
 import ProjectsContainer from './Projects/ProjectsContainer'
 import ProjectListContainer from './Projects/ProjectListContainer';
 import ProjectPageContainer from './Projects/ProjectPageContainer';
@@ -25,20 +23,6 @@ const router = createHashRouter([
     path: "/pages",
     element: <TopBarContainer />,
     children: [
-      {
-        path: "/pages/blog",
-        element: <BlogContainer />,
-        children: [
-          {
-            index: true,
-            element: <ArticleContainer />
-          },
-          {
-            path: "/pages/blog/:id",
-            element: <ArticleContainer />
-          }
-        ]
-      },
       {
         path: "/pages/projects",
         element: <ProjectsContainer />,

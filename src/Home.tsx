@@ -14,11 +14,6 @@ export default function Home() {
                 <div className="navigator">
                     <div className="columns">
                         <div className="button-column">
-                            <PlainLink to="/pages/blog" >
-                                <div className={buttonStyle}>Blog</div>
-                            </PlainLink>
-                        </div>
-                        <div className="button-column">
                             <PlainLink to="/pages/projects">
                                 <div className={buttonStyle}>Projects</div>
                             </PlainLink>

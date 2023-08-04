@@ -4,7 +4,7 @@ import { ListItem } from "../FilterNavigator/FilterNavigator";
 import Projects from "./Projects";
 import LoadingPage from "../Loading/LoadingPage";
 
-export default function BlogContainer() {
+export default function ProjectsContainer() {
   const [projects, setProjects] = React.useState<ListItem[]>([])
   const [isPending, startTransition] = React.useTransition()
 

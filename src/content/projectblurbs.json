@@ -8,5 +8,15 @@
         "id": "fire",
         "text": "## Fluid Fire\nNavier Stokes Fire Simulation",
         "thumbnailUrl": "images/fire.png"
+    },
+    "the-brain-as-computer": {
+        "id": "the-brain-as-computer",
+        "text": "## The Brain as Computer\nHow useful is the computation understanding of mind?",
+        "thumbnailUrl": "images/thesis.png"
+    },
+    "dream-machines": {
+        "id": "dream-machines",
+        "text": "## Dream Machines\nCan we model dreams with algorithms?",
+        "thumbnailUrl": "images/thesis.png"
     }
 }

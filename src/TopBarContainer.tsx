@@ -23,11 +23,6 @@ export default function TopBarContainer() {
                             </PlainLink>
                             : null
                     }
-                    <PlainLink to="/pages/blog">
-                        <div className="top-bar-button">
-                            Blog
-                        </div>
-                    </PlainLink>
                     <PlainLink to="/pages/projects">
                         <div className="top-bar-button">
                             Projects

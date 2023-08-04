@@ -7,6 +7,14 @@
         {
             "id": "fire",
             "title": "Fluid Fire Simulation"
+        },
+        {
+            "id": "the-brain-as-computer",
+            "title": "The Brain as Computer"
+        },
+        {
+            "id": "dream-machines",
+            "title": "Dream Machines"
         }
     ]
 }

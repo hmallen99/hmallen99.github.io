@@ -8,12 +8,11 @@ export default function TopBarContainer() {
     const platformInfo = React.useContext(PlatformContext)
 
     const isWideMode = platformInfo.formFactor === FormFactor.Wide
-    const topBarContainerStyle = isWideMode ? "top-bar" : "top-bar-compact"
 
     return (
         <>
             <div className="top-bar-container">
-                <div className={topBarContainerStyle}>
+                <div className="top-bar">
                     {
                         isWideMode ?
                             <PlainLink to="/">

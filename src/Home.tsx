@@ -13,16 +13,12 @@ export default function Home() {
                 <div className="title">henry.allen</div>
                 <div className="navigator">
                     <div className="columns">
-                        <div className="button-column">
-                            <PlainLink to="/pages/projects">
-                                <div className={buttonStyle}>Projects</div>
-                            </PlainLink>
-                        </div>
-                        <div className="button-column">
-                            <PlainLink to="/pages/resume">
-                                <div className={buttonStyle}>Resume</div>
-                            </PlainLink>
-                        </div>
+                        <PlainLink to="/pages/projects">
+                            <div className={buttonStyle}>Projects</div>
+                        </PlainLink>
+                        <PlainLink to="/pages/resume">
+                            <div className={buttonStyle}>Resume</div>
+                        </PlainLink>
                     </div>
                 </div>
             </div>

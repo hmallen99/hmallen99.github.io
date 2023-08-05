@@ -1,19 +1,16 @@
 .projects-container {
     display: flex;
     flex-direction: row;
-    width: calc(100% - 30px);
-    padding: 10px;
-    gap: 10px;
-    max-height: 85vh;
     justify-content: center;
     overflow-x: hidden;
+    width: 100%;
 }
 
 .project-list-content {
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    gap: 10px;
+    padding: 1em;
+    gap: 0.5em;
     border-radius: 12px;
     overflow-y: scroll;
     flex-grow: 1;
@@ -22,14 +19,14 @@
 .projects-list-cell {
     display: flex;
     flex-direction: row;
-    padding: 10px;
-    gap: 10px;
+    padding: 0.5em;
+    gap: 0.5em;
     border-top: 1px solid rgba(111, 111, 111, 1);
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     border-radius: 12px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     color: rgba(111, 111, 111, 1);
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
@@ -45,7 +42,7 @@
 }
 
 .project-list-title {
-    max-width: 300px;
+    max-width: 15em;
     color: rgba(111, 111, 111, 1);
     font-size: 20px;
     letter-spacing: 0%;
@@ -64,8 +61,8 @@
 .project-content {
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    gap: 10px;
+    padding: 0.5em;
+    gap: 0.5em;
     border-radius: 12px;
     background-color: white;
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.20000000298023224);
@@ -85,7 +82,7 @@
 }
 
 .project-thumbnail {
-    width: 100px;
-    height: 100px;
+    width: 5em;
+    height: 5em;
     border-radius: 12px;
 }

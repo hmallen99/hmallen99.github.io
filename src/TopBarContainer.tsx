@@ -7,21 +7,17 @@ import PlatformContext, { FormFactor } from "./Platform/PlatformContext";
 export default function TopBarContainer() {
     const platformInfo = React.useContext(PlatformContext)
 
-    const isWideMode = platformInfo.formFactor === FormFactor.Wide
+    const titleContent = platformInfo.formFactor === FormFactor.Wide ? "henry.allen" : "h.a"
 
     return (
         <>
             <div className="top-bar-container">
                 <div className="top-bar">
-                    {
-                        isWideMode ?
-                            <PlainLink to="/">
-                                <div className="top-bar-title">
-                                    henry.allen
-                                </div>
-                            </PlainLink>
-                            : null
-                    }
+                    <PlainLink to="/">
+                        <div className="top-bar-title">
+                            {titleContent}
+                        </div>
+                    </PlainLink>
                     <PlainLink to="/pages/projects">
                         <div className="top-bar-button">
                             Projects
@@ -33,8 +29,6 @@ export default function TopBarContainer() {
                         </div>
                     </PlainLink>
                 </div>
-
-
                 <Outlet />
             </div>
         </>

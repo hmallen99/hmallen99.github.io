@@ -4,14 +4,13 @@
     justify-content: flex-start;
     align-items: center;
     gap: 1em;
+    padding: 1em;
 }
 
 .filter-list-container {
     display: flex;
     flex-direction: column;
-    padding: 0.5em;
-    padding-bottom: 0.5em;
-    min-width: 16em;
+    min-width: 17em;
     border-radius: 12px;
     background-color: white;
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.20000000298023224);
@@ -54,8 +53,6 @@
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     border-radius: 12px;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
     color: rgba(111, 111, 111, 1);
     margin: 0 auto;
 }

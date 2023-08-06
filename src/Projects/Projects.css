@@ -4,6 +4,7 @@
     justify-content: center;
     overflow-x: hidden;
     width: calc(100% - 2em);
+    gap: 1em;
 }
 
 .project-list-content {
@@ -23,6 +24,10 @@
     border-bottom: 1px solid rgba(111, 111, 111, 1);
     font-family: "Roboto", sans-serif;
     font-size: 20px;
+}
+
+.projects-list-cell p {
+    color: rgba(111, 111, 111, 1)
 }
 
 .projects-list-cell:hover {
@@ -55,11 +60,29 @@
     flex-direction: column;
     padding: 0.5em;
     gap: 0.5em;
-    border-radius: 12px;
-    background-color: white;
-    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.20000000298023224);
+    height: calc(100vh - 4em);
     overflow-y: scroll;
     flex-grow: 1;
+    line-height: 1.5;
+}
+
+.project-content p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.project-content h1 {
+    /* font-size: 18px; */
+    line-height: 2;
+}
+
+.project-content h2 {
+    /* font-size: 18px; */
+    line-height: 2;
+}
+
+.project-content li {
+    font-size: 18px;
 }
 
 .iframe-content {

@@ -35,8 +35,7 @@ export default function FilterNavigator(props: Props) {
     return (
         <div className="filter-navigator-container">
             <div className="search-cell">
-                <div className="more-posts">Search Posts</div>
-                <input type="text" className="search-bar" onChange={(e) => setFilter(e.target.value)}></input>
+                <input defaultValue={"Search..."} type="text" className="search-bar" onFocus={(e) => e.target.value = ''} onChange={(e) => setFilter(e.target.value)}></input>
             </div>
             <div className="filter-list-container">
                 <div className="filter-list">

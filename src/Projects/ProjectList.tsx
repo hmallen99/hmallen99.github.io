@@ -10,7 +10,7 @@ type Props = {
     blurbs: ProjectBlurb[]
 }
 
-function ListCell(props: ProjectBlurb) {
+function ListCell(props: ProjectBlurb & { index: number }) {
     const [thumbnail, setThumbnail] = React.useState("")
     React.useEffect(() => {
         import(`../content/${props.thumbnailUrl}`)
@@ -21,8 +21,8 @@ function ListCell(props: ProjectBlurb) {
 
     return (
         <PlainLink to={`/pages/projects/${props.id}`} >
-            <div className="projects-list-cell">
-                {thumbnail ? <img className="project-thumbnail" src={thumbnail} alt="" /> : null}
+            <div className={props.index === 0 ? "project-list-cell-first" : "projects-list-cell"}>
+                {thumbnail ? <img className={props.index === 0 ? "project-thumbnail-first" : "project-thumbnail"} src={thumbnail} alt="" /> : null}
                 <div className="project-text">
                     <ReactMarkdown>
                         {props.text}
@@ -34,7 +34,7 @@ function ListCell(props: ProjectBlurb) {
 }
 
 export default function ProjectList(props: Props) {
-    const entries = props.blurbs.map((blurb) => <ListCell key={blurb.id} {...blurb} />)
+    const entries = props.blurbs.map((blurb, index) => <ListCell key={blurb.id} {...blurb} index={index} />)
 
     return (
         <>

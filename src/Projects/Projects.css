@@ -10,7 +10,6 @@
 .project-list-content {
     display: flex;
     flex-direction: column;
-    /* gap: 0.5em; */
     padding: 0.5em;
     overflow-y: scroll;
     height: calc(100vh - 4.5em);

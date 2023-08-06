@@ -12,7 +12,7 @@
     align-items: flex-start;
     gap: 1em;
     padding: 0.25em;
-    border-bottom: 1px solid rgba(111, 111, 111, 1);
+    border-bottom: thick double rgba(111, 111, 111, 1);
     width: 100%;
 }
 

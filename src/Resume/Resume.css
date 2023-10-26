@@ -1,13 +1,11 @@
 .resume-container {
-    display: flex;
-    flex-direction: row;
     width: calc(100% - 2em);
-    height: calc(100vh - 4.5em);
+    height: calc(100% - 2em);
     padding: 1em;
     gap: 1em;
     justify-content: center;
     overflow-x: hidden;
-    overflow-y: scroll;
+    flex: auto;
 }
 
 .resume-frame {

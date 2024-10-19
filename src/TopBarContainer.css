@@ -57,8 +57,7 @@
 }
 
 .top-bar-button:hover {
-    background-color: rgb(183, 213, 255);
-    border-color: rgb(183, 213, 255);
+    background-color: rgba(57, 198, 126, .20);
 }
 
 .more-posts {

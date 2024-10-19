@@ -79,11 +79,10 @@ body {
 }
 
 input[type="text"] {
-  background-color: rgb(183, 213, 255);
+  background-color: rgba(57, 198, 126, .20);
   border-width: 0px;
 }
 
 .button:hover {
   background-color: rgb(183, 213, 255);
-  border-color: rgb(183, 213, 255);
 }

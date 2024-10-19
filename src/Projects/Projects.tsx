@@ -16,7 +16,7 @@ export default function Projects(props: Props) {
             <div className="projects-container">
                 {
                     platformInfo.formFactor === FormFactor.Wide ?
-                        <FilterNavigator route={"/pages/projects"} items={props.projects} /> :
+                        <FilterNavigator route={"/projects"} items={props.projects} /> :
                         null
                 }
                 <Outlet />

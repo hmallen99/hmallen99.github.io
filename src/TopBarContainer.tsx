@@ -18,12 +18,7 @@ export default function TopBarContainer() {
                             {titleContent}
                         </div>
                     </PlainLink>
-                    <PlainLink to="/pages/projects">
-                        <div className="top-bar-button">
-                            Projects
-                        </div>
-                    </PlainLink>
-                    <PlainLink to="/pages/resume">
+                    <PlainLink to="/resume">
                         <div className="top-bar-button">
                             Resume
                         </div>

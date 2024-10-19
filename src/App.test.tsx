@@ -1,9 +1,9 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Home from './Home';
+import ProjectsContainer from './Projects/ProjectsContainer';
 
 test('renders Projects tab', () => {
-  render(<Home />);
+  render(<ProjectsContainer />);
   const linkElement = screen.getByText(/Projects/i);
   expect(linkElement).toBeInTheDocument();
 });

@@ -20,7 +20,7 @@ function ListCell(props: ProjectBlurb & { index: number }) {
     }, [props.thumbnailUrl])
 
     return (
-        <PlainLink to={`/pages/projects/${props.id}`} >
+        <PlainLink to={`/projects/${props.id}`} >
             <div className={props.index === 0 ? "project-list-cell-first" : "projects-list-cell"}>
                 {thumbnail ? <img className={props.index === 0 ? "project-thumbnail-first" : "project-thumbnail"} src={thumbnail} alt="" /> : null}
                 <div className="project-text">

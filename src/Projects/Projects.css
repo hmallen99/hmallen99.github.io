@@ -22,14 +22,24 @@
     border-bottom: 1px solid rgba(111, 111, 111, 1);
     font-family: 'Inter';
     font-size: 20px;
+    align-items: center;
 }
 
 .projects-list-cell p {
     color: rgba(111, 111, 111, 1)
 }
 
+.projects-list-cell-text {
+    color: rgba(0, 0, 0, 1);
+    font-size: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: 'Inter';
+}
+
+
 .projects-list-cell:hover {
-    background-color: rgb(183, 213, 255);
+    background-color: rgba(57, 198, 126, .20);
 }
 
 .project-list-cell-first {
@@ -43,7 +53,7 @@
 }
 
 .project-list-cell-first:hover {
-    background-color: rgb(183, 213, 255);
+    background-color: rgba(57, 198, 126, .20);
 }
 
 .project-thumbnail-first {
@@ -72,7 +82,6 @@
 
 .project-text p {
     text-indent: 2em;
-
 }
 
 .project-content {
@@ -82,6 +91,7 @@
     gap: 0.5em;
     flex-grow: 1;
     line-height: 1.5;
+    width: 100%;
 }
 
 .project-content p {
@@ -105,7 +115,7 @@
 
 .iframe-content {
     width: 100%;
-    background-color: rgba(239, 239, 239, 1);
+    background-color: rgba(255, 255, 255, 1);
     border-style: hidden;
 }
 

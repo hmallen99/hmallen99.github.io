@@ -14,6 +14,11 @@ export default function Projects(props: Props) {
     return (
         <>
             <div className="projects-container">
+                {
+                    platformInfo.formFactor === FormFactor.Wide ?
+                        <FilterNavigator route={"/projects"} items={props.projects} /> :
+                        null
+                }
                 <Outlet />
             </div>
         </>

@@ -12,6 +12,6 @@
     position: relative;
     width: 100%;
     height: calc(100vh - 6em);
-    background-color: rgba(239, 239, 239, 1);
+    background-color: rgba(255, 255, 255, 1);
     border-style: hidden;
 }

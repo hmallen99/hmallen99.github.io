@@ -3,6 +3,7 @@ import { ReactMarkdown } from "react-markdown/lib/react-markdown"
 import PlainLink from "../PlainLink"
 import { ProjectBlurb } from "./ProjectListContainer"
 import "./Projects.css"
+import { Link } from "react-router-dom"
 
 
 
@@ -20,16 +21,16 @@ function ListCell(props: ProjectBlurb & { index: number }) {
     }, [props.thumbnailUrl])
 
     return (
-        <PlainLink to={`/projects/${props.id}`} >
-            <div className={props.index === 0 ? "project-list-cell-first" : "projects-list-cell"}>
-                {thumbnail ? <img className={props.index === 0 ? "project-thumbnail-first" : "project-thumbnail"} src={thumbnail} alt="" /> : null}
+        <Link to={`/projects/${props.id}`} className={"projects-list-cell"}>
+            <div className="projects-list-cell-container">
+                {thumbnail ? <img className={"project-thumbnail"} src={thumbnail} alt="" /> : null}
                 <div className="projects-list-cell-text">
                     <ReactMarkdown>
                         {props.text}
                     </ReactMarkdown>
                 </div>
             </div>
-        </PlainLink>
+        </Link>
     )
 }
 

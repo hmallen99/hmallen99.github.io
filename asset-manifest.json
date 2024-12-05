@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cfea319d.css",
-    "main.js": "/static/js/main.a797af07.js",
+    "main.css": "/static/css/main.1970910d.css",
+    "main.js": "/static/js/main.e69c39e3.js",
     "static/js/232.7476975f.chunk.js": "/static/js/232.7476975f.chunk.js",
     "static/js/744.13e37dbf.chunk.js": "/static/js/744.13e37dbf.chunk.js",
     "static/js/445.980756f5.chunk.js": "/static/js/445.980756f5.chunk.js",
@@ -18,6 +18,7 @@
     "static/js/518.6edbef5b.chunk.js": "/static/js/518.6edbef5b.chunk.js",
     "static/js/787.b006e9dc.chunk.js": "/static/js/787.b006e9dc.chunk.js",
     "static/media/thesis.png": "/static/media/thesis.6eff9cbb803d088f10c4.png",
+    "static/media/Background.jpg": "/static/media/Background.27edfba1da4bea6aeace.jpg",
     "static/media/fire.png": "/static/media/fire.ff696120514539de944a.png",
     "static/media/the-brain-as-computer.md": "/static/media/the-brain-as-computer.dca6122e616c29c7e3c9.md",
     "static/media/dream-machines.md": "/static/media/dream-machines.e8120117e9faa3bc7238.md",
@@ -26,12 +27,12 @@
     "static/media/fire_intro.md": "/static/media/fire_intro.b030a68f468a2603659f.md",
     "static/media/placeholder.md": "/static/media/placeholder.19a4cf647669f9586031.md",
     "static/media/thesis.md": "/static/media/thesis.ef23956dbe4d59cee63c.md",
-    "main.cfea319d.css.map": "/static/css/main.cfea319d.css.map",
-    "main.a797af07.js.map": "/static/js/main.a797af07.js.map",
+    "main.1970910d.css.map": "/static/css/main.1970910d.css.map",
+    "main.e69c39e3.js.map": "/static/js/main.e69c39e3.js.map",
     "787.b006e9dc.chunk.js.map": "/static/js/787.b006e9dc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfea319d.css",
-    "static/js/main.a797af07.js"
+    "static/css/main.1970910d.css",
+    "static/js/main.e69c39e3.js"
   ]
 }

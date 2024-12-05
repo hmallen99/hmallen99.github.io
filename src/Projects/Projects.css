@@ -5,13 +5,16 @@
     overflow-x: hidden;
     width: 100%;
     gap: 1em;
+    background-color: transparent;
 }
 
 .project-list-content {
     display: flex;
     flex-direction: column;
     padding: 0.5em;
+    padding-top: 5em;
     flex-grow: 1;
+    background-color: transparent;
 }
 
 .projects-list-cell {

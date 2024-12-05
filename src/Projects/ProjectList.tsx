@@ -21,8 +21,8 @@ function ListCell(props: ProjectBlurb & { index: number }) {
 
     return (
         <PlainLink to={`/projects/${props.id}`} >
-            <div className={props.index === 0 ? "project-list-cell-first" : "projects-list-cell"}>
-                {thumbnail ? <img className={props.index === 0 ? "project-thumbnail-first" : "project-thumbnail"} src={thumbnail} alt="" /> : null}
+            <div className={"projects-list-cell"}>
+                {thumbnail ? <img className={"project-thumbnail"} src={thumbnail} alt="" /> : null}
                 <div className="projects-list-cell-text">
                     <ReactMarkdown>
                         {props.text}

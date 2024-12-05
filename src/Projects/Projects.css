@@ -6,6 +6,7 @@
     width: 100%;
     gap: 1em;
     background-color: transparent;
+    align-items: stretch;
 }
 
 .project-list-content {
@@ -79,7 +80,7 @@
 }
 
 .project-text {
-    color: rgba(0, 0, 0, 1);
+    color: rgba(0, 2, 111, 1);
     font-size: 15px;
     letter-spacing: 0%;
     text-align: left;
@@ -93,11 +94,24 @@
 .project-content {
     display: flex;
     flex-direction: column;
-    padding: 0.5em;
+    padding: 2em;
     gap: 0.5em;
     flex-grow: 1;
     line-height: 1.5;
     width: 100%;
+    color: rgba(0, 2, 111, 1);
+}
+
+@media (min-width: 800px) {
+    .project-content {
+        max-width: 1280px;
+    }
+}
+
+.project-body {
+    background-color: rgba(215, 244, 229, 1);
+    border-radius: 32px;
+    padding: 2em
 }
 
 .project-content p {

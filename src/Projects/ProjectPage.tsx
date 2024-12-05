@@ -13,7 +13,7 @@ function contentNodeSelector(contentNode: ContentNode) {
             return <MarkdownContent {...contentNode} />
         case "iframe":
             return <div className="iframe-container" >
-                <iframe title={contentNode.title} style={{height: contentNode.height || "75vh"}} className="iframe-content" src={contentNode.src}></iframe>
+                <iframe title={contentNode.title} style={{ height: contentNode.height || "75vh" }} className="iframe-content" src={contentNode.src}></iframe>
             </div>
         default:
             return <div>{contentNode.src}</div>
@@ -27,7 +27,9 @@ export default function Project(props: Props) {
 
     return (
         <div className="project-content">
-            {elements}
+            <div className="project-body">
+                {elements}
+            </div>
         </div>
     )
 }

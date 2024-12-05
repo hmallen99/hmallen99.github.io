@@ -16,7 +16,8 @@
     padding-top: 5em;
     flex-grow: 1;
     background-color: transparent;
-    gap: 4em
+    gap: 4em;
+    animation: fade-in 0.4s;
 }
 
 .projects-list-cell {
@@ -100,7 +101,7 @@
     line-height: 1.5;
     width: 100%;
     color: rgba(0, 2, 111, 1);
-    animation: fade-in 1s;
+    animation: fade-in 0.4s;
 }
 
 

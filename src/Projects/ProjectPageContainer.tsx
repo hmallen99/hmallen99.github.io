@@ -23,10 +23,6 @@ const ERROR_CONTENT = {
     ]
 }
 
-const DEFAULT_CONTENT = {
-    content: []
-}
-
 export default function ArticleContainer() {
     const { id } = useParams();
     const projects = React.useContext(ProjectContext)

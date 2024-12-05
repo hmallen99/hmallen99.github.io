@@ -31,9 +31,9 @@ export default function ArticleContainer() {
     const { id } = useParams();
     const projects = React.useContext(ProjectContext)
 
-    const project = React.useMemo(() => projects.find(a => a.id === id), [ projects, id ])
+    const project = React.useMemo(() => projects.find(a => a.id === id), [projects, id])
     const pageId = project?.id || "placeholder"
-    const [projectContent, setProjectContent] = React.useState<ProjectContent>(DEFAULT_CONTENT)
+    const [projectContent, setProjectContent] = React.useState<ProjectContent>()
     React.useEffect(() => {
         import(`../content/projects/${pageId}.json`)
             .then((result) => {
@@ -42,6 +42,10 @@ export default function ArticleContainer() {
                 setProjectContent(ERROR_CONTENT)
             })
     }, [pageId])
+
+    if (!projectContent) {
+        return null
+    }
 
     return (
         <ProjectPage projectContent={projectContent} />

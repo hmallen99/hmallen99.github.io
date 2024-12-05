@@ -7,7 +7,6 @@ type Props = {
 }
 
 export default function Projects(_props: Props) {
-
     return (
         <>
             <div className="projects-container">

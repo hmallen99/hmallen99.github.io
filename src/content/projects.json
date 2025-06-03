@@ -1,6 +1,10 @@
 {
     "projects": [
         {
+            "id": "pipe",
+            "title": "Pipe.js"
+        },
+        {
             "id": "thesis",
             "title": "Honors Thesis"
         },

@@ -1,4 +1,9 @@
 {
+    "pipe": {
+        "id": "pipe",
+        "text": "## Pipe.js\nAn observable-driven JavaScript UI library",
+        "thumbnailUrl": "images/pipe.png"
+    },
     "thesis": {
         "id": "thesis",
         "text": "## Honors Thesis\nDecoding the Current and Previous Orientation of Small Targets in the Periphery Using Magnetoencephalography",
